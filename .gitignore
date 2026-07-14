@@ -1,0 +1,11 @@
+.vs/
+
+/out/
+
+/build/
+
+*.obj
+*.log
+*.tlog
+*.lastbuildstate
+*.exe
