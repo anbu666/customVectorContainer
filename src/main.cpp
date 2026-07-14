@@ -23,7 +23,7 @@ int main() {
     v3 = v1;
     std::cout << "v3 after assignment:  " << v3 << "\n\n";
 
-    std::cout << "4. Linear Algebra Operations: \n";
+    std::cout << "4. Linear Algebra Operations:\n";
     Vector<double> a(3);
     a[0] = 1.0; a[1] = 2.0; a[2] = 3.0;
 

@@ -3,7 +3,7 @@
 #include <algorithm>
 #include <stdexcept>
 #include <utility> // For std::swap
-
+ 
 template <typename T>
 class Vector {
 private:
