@@ -11,7 +11,7 @@ int main() {
     v1.push_back(20);
     v1.push_back(30);
     std::cout << "v1: " << v1 << " (Size: " << v1.size() << ")\n\n";
-
+    
     std::cout << "2. Copy Constructor:\n";
     Vector<int> v2 = v1;
     std::cout << "v2 (copied from v1): " << v2 << "\n\n";
@@ -23,7 +23,7 @@ int main() {
     v3 = v1;
     std::cout << "v3 after assignment:  " << v3 << "\n\n";
 
-    std::cout << "4. Linear Algebra Operations:\n";
+    std::cout << "4. Linear Algebra Operations: \n";
     Vector<double> a(3);
     a[0] = 1.0; a[1] = 2.0; a[2] = 3.0;
 
